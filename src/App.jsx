@@ -3,7 +3,7 @@ import { translations } from "./data/constants";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub,} from "@fortawesome/free-brands-svg-icons";
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
-import perfil from "./assets/perfil.png";
+import perfil from "./assets/img/perfil.png";
 import "./App.css";
 
 function App() {
@@ -14,7 +14,6 @@ function App() {
 
   return (
     <div className="portfolio-spa">
-      {/*NAVBAR*/}
       <nav className="top-navbar">
         <div className="nav-content">
           <span className="nav-logo">Portafolio</span>
@@ -25,7 +24,7 @@ function App() {
       </nav>
 
       <header className="blue-header">
-        <img src={perfil} alt="perfil" />
+        <img src={perfil} className="profile-img" alt="perfil" />
         <h1>{t.hero.name}</h1>
         <h3>{t.hero.role}</h3>
       </header>
