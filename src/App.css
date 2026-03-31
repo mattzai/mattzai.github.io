@@ -1,0 +1,206 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+}
+
+.portfolio-spa {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --- Navbar --- */
+.top-navbar {
+  background-color: #212529;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-content {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+}
+
+.btn-lang-nav {
+  background: transparent;
+  border: none;
+  color: #adb5bd;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+/* --- Header --- */
+.blue-header {
+  background-color: #0066b2;
+  color: white;
+  padding: 60px 0 100px 0;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.blue-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.blue-header h3 {
+  margin: 10px 0 0 0;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+/* --- Tarjetas y Contenedor --- */
+.main-content-wrapper {
+  width: 900px;
+  max-width: calc(100% - 40px);
+  margin: -60px auto 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.card-section {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.cSection {
+  background-color: #ffffff;
+  padding: 40px;
+  margin-left: 20%;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #212529;
+}
+
+/* --- Listas --- */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 20px;
+}
+
+li::before {
+  content: "•";
+  color: #0066b2;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+/* --- Secciones Específicas --- */
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.skills-grid h4 {
+  margin-bottom: 10px;
+  color: #0066b2;
+}
+
+.job-date {
+  color: #6c757d;
+  font-style: italic;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.experience-item, .education-item {
+  margin-bottom: 25px;
+}
+
+/* --- Contacto --- */
+.contact-section h2 {
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  margin-bottom: 20px;
+  color: #4a4a4a;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.social-icon {
+  width: 35px;
+  height: 35px;
+  transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  color: #385194;
+}
+
+.icon-phone {
+  color: #0076e4;
+}
+
+.conNum {
+  padding: 10px;
+}
+
+/* --- Footer --- */
+.blue-footer {
+  background-color: #272c30;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  width: 100%;
+}
