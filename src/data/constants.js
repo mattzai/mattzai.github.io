@@ -12,7 +12,7 @@ export const translations = {
     },
     about: {
       title: "Sobre mí",
-      text: "Soy un argentino residente en Chile, con permiso de trabajo vigente y motivado por nuevos desafíos. Me destaco por mi adaptabilidad, capacidad de aprendizaje rápido y compromiso con los objetivos. Busco integrarme a un equipo donde pueda aportar mis habilidades, asumir nuevas responsabilidades e impactar positivamente."
+      text: "Desarrollador Front-End enfocado en React y JavaScript, con experiencia creando interfaces dinámicas y consumo de APIs. Destaco por mi capacidad de aprendizaje rápido, trabajo en equipo remoto y comunicación fluida en inglés."
     },
     skills: {
       title: "Habilidades",
@@ -78,7 +78,7 @@ export const translations = {
     },
     about: {
       title: "About Me",
-      text: "I am an Argentine residing in Chile, with a valid work permit and motivated by new challenges. I stand out for my adaptability, quick learning ability, and commitment to objectives. I am looking to join a team where I can contribute my skills, take on new responsibilities, and positively impact growth."
+      text: "Front-End Developer focus on React and JavaScript, with experience creating dynamic interfaces and use of APIs. I stand out for my capacity of fast learning , remote team work and fluid comunication in english."
     },
     skills: {
       title: "Skills",
